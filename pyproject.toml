@@ -1,0 +1,22 @@
+[project]
+name = "ml2"
+version = "0.1.0"
+description = "Default template for PDM package"
+authors = [
+    {name = "unworthyEnzyme", email = "unworthy_enzyme@protonmail.com"},
+]
+dependencies = [
+    "numpy>=1.26.4",
+    "pandas>=2.2.2",
+    "matplotlib>=3.9.0",
+    "jupyterlab>=4.2.1",
+    "scikit-learn>=1.5.0",
+    "seaborn>=0.13.2",
+]
+requires-python = "==3.11.*"
+readme = "README.md"
+license = {text = "MIT"}
+
+
+[tool.pdm]
+distribution = false
